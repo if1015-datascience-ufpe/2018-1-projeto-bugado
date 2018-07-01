@@ -1,0 +1,64 @@
+{
+	"metadados": {
+		"cabecalho": {
+			"titulo": "Equipamentos de Monitoramento e Fiscalização de Trânsito",
+			"descricao": "Lista de equipamentos de monitoramento e fiscalização de trânsito",
+			"categoria_vcge": "http://vocab.e.gov.br/2011/03/vcge#radares",
+			"fonte_dados": "http://dados.recife.pe.gov.br",
+			"licenca": "Open Database License (ODbL)",
+			"responsavel_dados": "CTTU",
+			"responsavel_disponibilizar": "Emprel",
+			"frequencia_atualizacao": "Anual",
+			"endereco_dataset": "http://dados.recife.pe.gov.br/dataset/equipamentos-de-monitoramento-e-fiscalizacao-de-transito",
+			"status": "ativo",
+			"endereco_dataset_substituto": "",
+			"granularidade": "Estes dados Contém informações dos equipamentos de Trânsito",
+			"etiquetas": "Fiscalização, Monitoramento, Semáforo, Trânsito"
+		},
+		"recursos": [
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/equipamentos-de-monitoramento-e-fiscalizacao-de-transito/resource/2c0f3707-8962-4092-be8b-b386963d1e31",
+				"titulo": "Lista de Equipamentos de Monitoramento e Fiscalização de Trânsito",
+				"formato": "csv",
+				"descricao": "Este recurso descreve a localização geográfica dos equipamentos de monitoramento e fiscalização de trânsito"
+			}
+		],
+		"campos": [
+			{
+				"codigo": "localizacao",
+				"descricao": "Localização do Equipamento",
+				"tipo": "Char",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "tipo",
+				"descricao": "Tipo de quipamento de monitoração",
+				"tipo": "Char",
+				"tamanho": 60,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "latitude",
+				"descricao": "Coordenadas geográficas em graus decimais - Latitude",
+				"tipo": "Num",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "longitude",
+				"descricao": "Coordenadas geográficas em graus decimais - Longitude",
+				"tipo": "Num",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "velocidade_regulamentada",
+				"descricao": "Velocidade Regulamentada no Trecho",
+				"tipo": "Num",
+				"tamanho": 3,
+				"valores_permitidos": ""
+			}
+		]
+	}
+}

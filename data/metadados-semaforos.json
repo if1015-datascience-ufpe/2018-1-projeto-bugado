@@ -1,0 +1,92 @@
+{
+	"metadados": {
+		"cabecalho": {
+			"titulo": "Localização dos semáforos",
+			"descricao": "Relação de todos os semáforos georreferenciados, contendo informações referentes ao modo de funcionamento, sinal sonoro e sinalizador para cidclistas",
+			"categoria_vcge": "http://vocab.e.gov.br/2011/03/vcge#transito",
+			"fonte_dados": "http://dados.recife.pe.gov.br",
+			"licenca": "Open Database License (ODbL)",
+			"responsavel_dados": "Companhia de Trânsito e Transporte Urbano - CTTU",
+			"responsavel_disponibilizar": "Emprel",
+			"frequencia_atualizacao": "anual",
+			"endereco_dataset": "http://dados.recife.pe.gov.br/dataset/localizacao-dos-semaforos",
+			"status": "ativo",
+			"endereco_dataset_substituto": "",
+			"granularidade": "Por semáforo instalado",
+			"etiquetas": "Cttu, semáforo, sinal, trânsito"
+		},
+		"recursos": [
+			{ 
+				"identificador": "http://dados.recife.pe.gov.br/dataset/localizacao-dos-semaforos/resource/ab6343e9-c3f2-4d62-9554-5778f9f33738",
+				"titulo": "Semáforos",
+				"formato": "csv",
+				"descricao": "Relação dos semáforos do Recife com características e localização georreferenciada"
+			}
+		],
+		"campos": [
+			{
+				"codigo": "semaforo",
+				"descricao": "Código de identificação do semáforo",
+				"tipo": "NUMBER",
+				"tamanho": 3,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "localizacao1",
+				"descricao": "Endereço onde semáforo está instalado",
+				"tipo": "CHAR",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "localizacao2",
+				"descricao": "Endereço do cruzamento do semáforo ou contendo ponto de referência",
+				"tipo": "CHAR",
+				"tamanho": 100,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "funcionamento",
+				"descricao": "Tipo de funcionamento do semáforo. GIT = Gerenciador Inteligente de Trânsito, E =  Eletrônico (CES),M   =  Eletromecânico, E/E = Eletroeletrônico",
+				"tipo": "CHAR",
+				"tamanho": 10,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "utilizacao",
+				"descricao": "Destinação do semáforo, que podem ser: Ocasional/Ped = Ocasional de Pedestre, Veic.C/Ped. = Veicular com Pedestre, Veic.C/Ped.Ocas = Veicular com Pedestre Ocasional, Veic.C/Ped.Paral = Veicular com Pedestre Paralelo, Veic.C/Laço Det = Veicular com laço Detector ",
+				"tipo": "CHAR",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			},
+			{
+				"codigo": "sinalsorono",
+				"descricao": "Identifica se o semáforo possui sinal sonoro de alerta",
+				"tipo": "CHAR",
+				"tamanho": 1,
+				"valores_permitidos": "S,N"
+			},
+			{
+				"codigo": "sinalizadorciclista",
+				"descricao": "Identifica se o semáforo possui sinalização para o ciclista",
+				"tipo": "CHAR",
+				"tamanho": 10,
+				"valores_permitidos": "S,N"
+			},
+			{	
+				"codigo": "latitude",
+				"descricao": "Latitude em coordenadas geográficas em graus decimais",
+				"tipo": "NUMER",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			},
+			{	
+				"codigo": "longitude",
+				"descricao": "Longitude em coordenadas geográficas em graus decimais",
+				"tipo": "NUMER",
+				"tamanho": 20,
+				"valores_permitidos": ""
+			}
+		]
+	}
+}
